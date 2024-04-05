@@ -43,6 +43,8 @@ Pour exécuter l'application, utilisez la console et entrez une commande au form
 
 _application python.py_
 
+## Remarques
+
 > [!TIP]
 > Le côté serveur de l'application est écrit à l'aide de la bibliothèque [Flask](https://pypi.org/project/Flask/).
 
@@ -56,6 +58,8 @@ _application python.py_
 > Ce projet a été créé pour se familiariser avec les principes de fonctionnement du réseau Blockchain et son utilisation pour des projets réels est fortement déconseillée.
 
 ---------------
+
+## Project Description
 
 **An application that implements the main functions of Blockchain.**
 
@@ -74,6 +78,30 @@ Main features of the application:
 * _Resolving conflicts in data stored by different nodes in order to store the same version of the Blockchain network;_
 
 * _Viewing a user's coins._
+
+## How to start a project
+
+To successfully launch a project, you need to take the following steps sequentially:
+
+1. Launch Node
+
+To start a node, use the console and enter a command in the following format:
+
+_python noeud.py port filename_
+
+Or,
+- port: port number, for example 80
+- filename: the name of the file where the private and public keys will be stored
+
+Note: if desired, you can run multiple nodes using multiple consoles
+
+2. Launch the application
+
+To run the application, use the console and enter a command in the following format:
+
+_python application.py_
+
+## Notes
 
 > [!TIP]
 > The server side of the application is written using the [Flask](https://pypi.org/project/Flask/) library.
