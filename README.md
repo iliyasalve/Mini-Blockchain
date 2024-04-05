@@ -1,5 +1,7 @@
 # Mini-Blockchain
 
+## Description du projet
+
 **Une application qui implémente les principales fonctions de Blockchain.**
 
 Principales fonctionnalités de l'application :
@@ -17,6 +19,29 @@ Principales fonctionnalités de l'application :
 * _Résoudre les conflits dans les données stockées par différents nœuds afin de stocker la même version du réseau Blockchain ;_
 
 * _Consulter les pièces de coins d'un utilisateur._
+
+## Comment démarrer un projet
+
+Pour réussir le lancement d'un projet, vous devez suivre les étapes suivantes dans l'ordre :
+
+1. Lancer le noeud
+
+Pour démarrer un nœud, utilisez la console et entrez une commande au format suivant :
+
+_python noeud.py filename port_
+
+où,
+
+- port : numéro de port, par exemple 80
+
+- filename: le nom du fichier où seront stockées les clés privées et publiques
+
+_Remarque : si vous le souhaitez, vous pouvez exécuter plusieurs nœuds à l'aide de plusieurs consoles._
+
+2. Lancez l'application
+Pour exécuter l'application, utilisez la console et entrez une commande au format suivant :
+
+_application python.py_
 
 > [!TIP]
 > Le côté serveur de l'application est écrit à l'aide de la bibliothèque [Flask](https://pypi.org/project/Flask/).
